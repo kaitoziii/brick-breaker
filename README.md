@@ -29,22 +29,15 @@ Game ini dibuat pake Python (kayaknya, hehe). Jadi, pastiin kamu udah install Py
 
 Clone Repo Ini:
 
-git clone https://github.com/nama_user_kamu/nama_repo_kamu.git
-
-(Ganti nama_user_kamu dan nama_repo_kamu dengan yang bener ya!)
+git clone https://github.com/kaitoziii/brick-breaker/tree/main
 
 Masuk ke Folder Project:
 
-cd nama_repo_kamu
+cd brick breaker
 
 Jalankan Gamenya:
 
-python nama_file_utama_game_kamu.py
-
-(Biasanya nama filenya main.py, app.py, atau run.py. Cek aja di folder project kamu!)
-
-📸 Screenshot / Demo
-(Maaf banget, belum ada screenshot atau GIF di sini! Nanti kalau udah ada, pasti langsung ku update biar kamu bisa liat sendiri keseruannya!)
+python main.py
 
 🤝 Mau Ikut Kontribusi?
 Punya ide keren buat game ini? Atau nemu bug yang bikin kesel? Jangan ragu buat ikutan kontribusi ya!
