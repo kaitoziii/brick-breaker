@@ -1,60 +1,83 @@
-🧱 Game Brick Breaker 🚀
-Halo gaes! 👋 Selamat datang di repo game Brick Breaker bikinan aku! Pasti udah pada tau dong game legendaris yang satu ini? Nah, ini versi bikinan sendiri, dijamin seru dan bikin nagih! Cocok banget buat ngisi waktu luang atau pas lagi bosen.
+🧱 Brick Breaker
 
-🎮 Tentang Gamenya
-Game ini adalah adaptasi modern dari game klasik Brick Breaker. Misimu simpel: hancurin semua bata di layar pake bola yang kamu pantulin pake paddle. Kedengerannya gampang? Eits, jangan salah! Butuh skill dan fokus biar bolanya gak jatuh dan semua bata bisa pecah berkeping-keping! 🔥
+Game Brick Breaker adalah permainan arcade sederhana di mana pemain mengendalikan paddle untuk memantulkan bola dan menghancurkan seluruh brick yang ada di layar.
 
-✨ Fitur-fitur Keren
-Gameplay Klasik: Rasain lagi nostalgia main Brick Breaker kayak dulu!
+🎮 Gameplay
 
-Level Seru: Ada banyak level dengan formasi bata yang beda-beda, siap kamu taklukkan.
+Pemain harus menggerakkan paddle ke kiri dan kanan untuk menjaga bola tetap berada di area permainan. Setiap bola yang mengenai brick akan menghancurkan brick tersebut dan menambah skor.
 
-Power-up Mantap: Kumpulin power-up yang jatuh buat bikin bolamu makin kuat, paddle makin lebar, atau bahkan dapet bola tambahan!
+Fitur
 
-Sistem Skor: Adu skor tertinggi sama temen-temen atau diri sendiri!
+- 🧱 Brick yang dapat dihancurkan
+- ⚪ Bola yang memantul
+- 🏓 Paddle yang dapat dikendalikan pemain
+- 🏆 Sistem skor
+- ❤️ Sistem nyawa
+- 🎯 Kondisi menang dan kalah
+- 🔄 Restart permainan
 
-Desain Simpel & Menarik: Tampilan yang bersih dan enak dilihat, bikin betah main lama-lama.
+🕹️ Kontrol
 
-🕹️ Cara Main
-Gerakin Paddle: Gunakan mouse atau tombol panah kiri/kanan di keyboard untuk menggerakkan paddle di bagian bawah layar.
+Tombol| Fungsi
+"←"| Gerak ke kiri
+"→"| Gerak ke kanan
+"Space"| Memulai permainan
+"R"| Restart permainan
 
-Pantulin Bola: Pastiin bola selalu memantul di paddle biar gak jatuh ke bawah.
+📌 Tujuan Permainan
 
-Hancurin Bata: Arahkan bola ke bata-bata di atas untuk menghancurkannya.
+Hancurkan semua brick menggunakan bola tanpa membiarkan bola jatuh melewati paddle.
 
-Selesaikan Level: Hancurin semua bata di satu level untuk lanjut ke level berikutnya!
+Pemain memenangkan permainan apabila seluruh brick berhasil dihancurkan.
 
-💻 Cara Instal & Mainin (Buat Developer)
-Game ini dibuat pake Python (kayaknya, hehe). Jadi, pastiin kamu udah install Python di komputer kamu ya.
+💻 Teknologi
 
-Clone Repo Ini:
+Proyek ini dibuat menggunakan:
 
-git clone https://github.com/kaitoziii/brick-breaker/tree/main
+- [Nama bahasa/framework yang digunakan]
+- HTML / CSS / JavaScript (jika digunakan)
+- [Library/game engine jika ada]
 
-Masuk ke Folder Project:
+📂 Struktur Project
 
-cd brick breaker
+Brick-Breaker/
+├── README.md
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    └── images/
 
-Jalankan Gamenya:
+«Struktur folder dapat disesuaikan dengan project yang digunakan.»
 
-python main.py
+🚀 Cara Menjalankan
 
-🤝 Mau Ikut Kontribusi?
-Punya ide keren buat game ini? Atau nemu bug yang bikin kesel? Jangan ragu buat ikutan kontribusi ya!
+1. Clone atau download repository ini.
+2. Buka folder project.
+3. Jalankan file utama game.
+4. Mulai permainan dan hancurkan semua brick.
 
-Fork repo ini.
+🎯 Cara Bermain
 
-Buat branch baru untuk fitur atau perbaikanmu (git checkout -b fitur-baru-kamu).
+1. Tekan Space untuk memulai.
+2. Gunakan tombol ← dan → untuk menggerakkan paddle.
+3. Pantulkan bola menggunakan paddle.
+4. Hancurkan semua brick.
+5. Jangan sampai bola jatuh ke bawah.
+6. Raih skor setinggi mungkin!
 
-Lakukan perubahan dan commit (git commit -m 'Tambahin fitur baru yang keren!').
+📸 Screenshot
 
-Push ke branch kamu (git push origin fitur-baru-kamu).
+Tambahkan screenshot game di sini:
 
-Bikin Pull Request ke repo ini.
+![Brick Breaker Gameplay](assets/screenshot.png)
 
-Yuk, kita bikin game ini makin mantap bareng-bareng!
+👤 Author
 
-📜 Lisensi
-Project ini bersifat open source. Kamu bebas pakai, modifikasi, atau distribusikan kode ini. Tapi jangan lupa kasih credit ke aku ya! 😉
+Nama: [Nama Kamu]
 
-Selamat bermain dan semoga terhibur! Kalau ada saran atau kritik, jangan sungkan sampaikan ya!
+Project: Brick Breaker
+
+📄 License
+
+Project ini dibuat untuk tujuan pembelajaran dan pengembangan game sederhana.
