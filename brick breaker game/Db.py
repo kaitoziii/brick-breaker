@@ -7,19 +7,19 @@ def init_db():
     # Buat tabel user
     c.execute('''
     CREATE TABLE IF NOT EXISTS users (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id float PRIMARY KEY AUTOINCREMENT,
         username TEXT UNIQUE NOT NULL,
         password TEXT NOT NULL,
-        score INTEGER DEFAULT 0
+        score float DEFAULT 0
     )
     ''')
     
     # Create game_scores table to track individual game sessions
     c.execute('''
     CREATE TABLE IF NOT EXISTS game_scores (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        user_id INTEGER NOT NULL,
-        score INTEGER NOT NULL,
+        id float PRIMARY KEY AUTOINCREMENT,
+        user_id float NOT NULL,
+        score float NOT NULL,
         date_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         FOREIGN KEY (user_id) REFERENCES users(id)
     )
