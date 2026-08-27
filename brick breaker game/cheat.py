@@ -90,7 +90,7 @@ def handle_cheat_keys(event, game_state):
     
     # God mode (infinite lives)
     elif event.key == CHEAT_KEYS['GOD_MODE']:
-        game_state['lives'] = 999
+        game_state['lives'] = 99
         notification_text = "GOD MODE ENABLED! Lives set to 999."
         notification_start_time = pygame.time.get_ticks()
         print("Cheat: God mode enabled. Lives set to 999.")
