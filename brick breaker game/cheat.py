@@ -15,7 +15,7 @@ CHEAT_KEYS = {
 # Notification variables
 notification_text = ""
 notification_start_time = 0
-notification_duration = 2000  # 2 seconds
+notification_duration = 3000  # 2 seconds
 
 def toggle_cheat_mode():
     """Toggle the cheat mode on/off"""
