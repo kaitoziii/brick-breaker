@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Brick Breaker - Standard edition
+=======
+# Brick Breaker - Ultimate Edition
+>>>>>>> 609861ef005d73bde17361078705d1338c21e426
 
 🧱 Brick Breaker
 
