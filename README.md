@@ -1,3 +1,6 @@
+# Brick Breaker Game - Ultimate Remastered Edition
+
+
 🧱 Brick Breaker
 
 Game Brick Breaker adalah permainan arcade sederhana di mana pemain mengendalikan paddle untuk memantulkan bola dan menghancurkan seluruh brick yang ada di layar.
