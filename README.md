@@ -1,4 +1,4 @@
-# Brick Breaker - Standard Edition
+# Brick Breaker - Standard edition
 
 🧱 Brick Breaker
 
